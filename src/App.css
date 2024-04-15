@@ -1,7 +1,24 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 auto;  
+}
+
+main {
+  display: flex;
+  gap: 50px
+}
+
+.ConvertionForm {
+  display: flex;
+  flex-direction: column;
+  width: 350px
+}
+
+.PreviousConvertions {
+  display: flex;
+  flex-direction: column; 
+}
+
+h2 {
   text-align: center;
 }
- 
